@@ -1,0 +1,50 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Premature Optimization
+theme: ["PaperMod"]
+
+params:
+  defaultTheme: dark 
+  disableThemeToggle: true
+  # env: production
+  sectionPageMenu: main
+
+####################   Profile Mode for Home Page  ####################
+  profileMode:
+    enabled: true
+    title: "N. Hrushikesh Rao" # optional default will be site title
+    subtitle: "Systems Engineer obsessed with perf, memory and fundamentals"
+    #imageUrl: "<image link>" # optional
+    #imageTitle: "<title of image as alt>" # optional
+    #imageWidth: 120 # custom size
+    #imageHeight: 120 # custom size
+    #buttons:
+    #  - name: Archive
+    #    url: "/archive"
+    #  - name: Github
+    #    url: "https://github.com/"
+
+  socialIcons:
+    - name: "x"
+      url: "https://x.com/Hrushi2020"
+    - name: "github"
+      url: "https://github.com/hrushi20"
+    - name: "stackoverflow"
+      url: "https://stackoverflow.com/users/13473342/hrushikesh-rao"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/hrushikesh-rao-7741311b0/"
+
+####################   Profile Mode for Home Page  ####################
+####################   Menu Items   ####################
+menu:
+  main:
+    - identifier: Blog 
+      name: "Blog"
+      url: "/blog/"
+    - identifier: Project
+      name: "Project"
+      url: "/project/"
+    - identifier: About
+      name: "About"
+      url: "/about/"
+####################   Menu Items   ####################
