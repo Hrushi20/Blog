@@ -7,8 +7,6 @@ params:
   defaultTheme: dark 
   disableThemeToggle: true
   # env: production
-  sectionPageMenu: main
-
 ####################   Profile Mode for Home Page  ####################
   profileMode:
     enabled: true
@@ -38,9 +36,9 @@ params:
 ####################   Menu Items   ####################
 menu:
   main:
-    - identifier: Blog 
-      name: "Blog"
-      url: "/blog/"
+    # - identifier: Blogs
+    #   name: "Blog"
+    #   url: "/blogs/"
     - identifier: Project
       name: "Project"
       url: "/project/"

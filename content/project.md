@@ -1,6 +1,1 @@
----
-menus: main
-title: "Project"
-url: "/project/"
-summary: "Project"
----
+*** This is in bold ***

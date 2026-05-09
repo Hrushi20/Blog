@@ -1,6 +1,10 @@
 ---
-menus: main
-title: "About"
-url: "/about/"
-summary: "About"
+ShowToc: true
 ---
+
+# About Page
+# Second Item
+# Third Item
+# Fourth Item
+# Fifth Item
+# 6th Item
