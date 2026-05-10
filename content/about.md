@@ -1,5 +1,6 @@
 ---
 ShowToc: true
+hideMeta: true
 ---
 
 # About Page

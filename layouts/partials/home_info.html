@@ -1,0 +1,15 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    {{- if .imageUrl }}
+    <div class="home-profile-image" style="margin-bottom: 14px;">
+        <img src="{{ .imageUrl | relURL }}" alt="{{ .imageTitle | default "Profile" }}" width="{{ .imageWidth | default 180 }}" height="{{ .imageHeight | default 180 }}" style="border-radius: 50%; object-fit: cover; margin: 0 auto; display: block;" />
+    </div>
+    {{- end }}
+    <div class="entry-content" style="text-align:center;">
+        {{ .Content | markdownify }}
+    </div>
+    <footer class="entry-footer" style="text-align:center;">
+        {{ partial "social_icons.html" (dict "align" "center") }}
+    </footer>
+</article>
+{{- end -}}

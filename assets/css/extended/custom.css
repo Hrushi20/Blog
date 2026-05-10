@@ -25,3 +25,8 @@
 .project-link {
   font-weight: 600;
 }
+
+/* Hide card metadata (reading time/words/author) on homepage */
+.home .entry-footer {
+  display: none;
+}

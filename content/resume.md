@@ -24,7 +24,7 @@ Engineer with experience across systems programming, backend development, and ru
 ## Experience
 
 <h3 style="display:flex; align-items:center; gap:10px;">
-  <img src="/Blog/images/logos/goldman-sachs.svg" alt="Goldman Sachs" width="44" />
+  <img src="/images/logos/goldman-sachs.svg" alt="Goldman Sachs" width="44" />
   <span>Goldman Sachs | Analyst</span>
 </h3>
 
@@ -35,7 +35,7 @@ Engineer with experience across systems programming, backend development, and ru
 - Contributing to reliability and operational stability of critical post-trade payment pipelines.
 
 <h3 style="display:flex; align-items:center; gap:10px;">
-  <img src="/Blog/images/logos/cncf.svg" alt="CNCF" width="44" />
+  <img src="/images/logos/cncf.svg" alt="CNCF" width="44" />
   <span>LFX | WasmEdge</span>
 </h3>
 
@@ -48,7 +48,7 @@ Sept 2023 - Nov 2023
 - Reference: <a href="https://docs.google.com/document/d/16K4dZITktaTaIP0_-8hggs6D8-r6EBzQtbMJcLETpUg/edit?tab=t.0" target="_blank" rel="noopener noreferrer">LFX WasmEdge 2023 Experience</a>
 
 <h3 style="display:flex; align-items:center; gap:10px;">
-  <img src="/Blog/images/logos/gsoc-icon.svg" alt="GSOC" width="44" />
+  <img src="/images/logos/gsoc-icon.svg" alt="GSOC" width="44" />
   <span>GSOC | Jenkins</span>
 </h3>
 
@@ -60,20 +60,13 @@ May 2022 - Sept 2022
 - Measured impactful speedups on maintenance operations in project outcomes: `prefetch` (~35x), `commit-graph` (~410x), and `loose objects` cleanup (~10x), with JUnit-based validation.
 - Reference: <a href="https://www.jenkins.io/projects/gsoc/2022/projects/automatic-git-cache-maintenance/" target="_blank" rel="noopener noreferrer">Jenkins GSoC 2022 Project - Automatic Git Cache Maintenance</a>
 
-### Fullstack Web Developer | Formulate AI
-Nov 2020 - Apr 2021
-
-- Built responsive frontend interfaces with React.js and Tailwind CSS.
-- Contributed to backend services for TrueMentor, a mentorship platform connecting students with mentors.
-- Worked with MongoDB, Node.js, and Socket.IO.
-
 ## Skills
 
-- Languages: Java, C++, Rust, JavaScript
-- Platform and Systems: Linux, Operating Systems
-- Backend and Frameworks: Spring, MongoDB
-- Tools and DevOps: Git, Docker
-- Other: WebAssembly
+- Java, C++, Rust, JavaScript, SQL
+- Distributed Systems, Backend Engineering, Payment Systems
+- Linux, WebAssembly, Performance Optimization
+- NixOS, ZFS, Infrastructure as Code
+- Git, Jenkins, Docker, CI Testing
 
 ## Education
 

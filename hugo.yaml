@@ -35,6 +35,10 @@ params:
   homeInfoParams:
     Title: "N. Hrushikesh Rao"
     Content: "Systems Engineer focused on performance, memory, and fundamentals."
+    imageUrl: "/images/profile/profile-placeholder.svg"
+    imageTitle: "Profile photo placeholder"
+    imageWidth: 180
+    imageHeight: 180
 
   socialIcons:
     - name: "x"
@@ -45,7 +49,7 @@ params:
       url: "https://www.linkedin.com/in/hrushikesh-rao-7741311b0/"
     - name: "email"
       url: "mailto:hrushikesh20thegreat@gmail.com"
-    - name: "topmate"
+    - name: "link"
       url: "https://t.co/dKTRkVMuSX"
 
 menu:
