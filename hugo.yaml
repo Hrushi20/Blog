@@ -1,48 +1,66 @@
-baseURL: https://hrushi20.github.io/Blog/
-languageCode: en-us
-title: Premature Optimization
+baseURL: "https://hrushi20.github.io/Blog/"
+languageCode: "en-us"
+title: "Premature Optimization"
 theme: ["PaperMod"]
+enableRobotsTXT: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
-  defaultTheme: dark 
-  disableThemeToggle: true
-  # env: production
-####################   Profile Mode for Home Page  ####################
-  profileMode:
-    enabled: true
-    title: "N. Hrushikesh Rao" # optional default will be site title
-    subtitle: "Systems Engineer obsessed with perf, memory and fundamentals"
-    #imageUrl: "<image link>" # optional
-    #imageTitle: "<title of image as alt>" # optional
-    #imageWidth: 120 # custom size
-    #imageHeight: 120 # custom size
-    #buttons:
-    #  - name: Archive
-    #    url: "/archive"
-    #  - name: Github
-    #    url: "https://github.com/"
+  env: production
+  title: "Premature Optimization"
+  description: "Systems engineering, performance tuning, memory optimization, and backend fundamentals by N. Hrushikesh Rao."
+  keywords: ["systems engineering", "performance", "memory", "backend", "golang", "linux"]
+  author: "N. Hrushikesh Rao"
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  mainSections: ["blogs"]
+
+  homeInfoParams:
+    Title: "N. Hrushikesh Rao"
+    Content: "Systems Engineer focused on performance, memory, and fundamentals."
 
   socialIcons:
     - name: "x"
       url: "https://x.com/Hrushi2020"
     - name: "github"
       url: "https://github.com/hrushi20"
-    - name: "stackoverflow"
-      url: "https://stackoverflow.com/users/13473342/hrushikesh-rao"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/hrushikesh-rao-7741311b0/"
+    - name: "email"
+      url: "mailto:hrushikesh20thegreat@gmail.com"
 
-####################   Profile Mode for Home Page  ####################
-####################   Menu Items   ####################
 menu:
   main:
-    # - identifier: Blogs
-    #   name: "Blog"
-    #   url: "/blogs/"
-    - identifier: Project
-      name: "Project"
+    - identifier: posts
+      name: "Posts"
+      url: "/blogs/"
+      weight: 10
+    - identifier: projects
+      name: "Projects"
       url: "/project/"
-    - identifier: About
+      weight: 20
+    - identifier: about
       name: "About"
       url: "/about/"
-####################   Menu Items   ####################
+      weight: 30
+    - identifier: resume
+      name: "Resume"
+      url: "/resume/"
+      weight: 40
