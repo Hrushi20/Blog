@@ -24,7 +24,7 @@ Engineer with experience across systems programming, backend development, and ru
 ## Experience
 
 <h3 style="display:flex; align-items:center; gap:10px;">
-  <img src="/images/logos/goldman-sachs.svg" alt="Goldman Sachs" width="44" />
+  <img src="../images/logos/goldman-sachs.svg" alt="Goldman Sachs" width="44" />
   <span>Goldman Sachs | Analyst</span>
 </h3>
 
@@ -35,7 +35,7 @@ Engineer with experience across systems programming, backend development, and ru
 - Contributing to reliability and operational stability of critical post-trade payment pipelines.
 
 <h3 style="display:flex; align-items:center; gap:10px;">
-  <img src="/images/logos/cncf.svg" alt="CNCF" width="44" />
+  <img src="../images/logos/cncf.svg" alt="CNCF" width="44" />
   <span>LFX | WasmEdge</span>
 </h3>
 
@@ -48,7 +48,7 @@ Sept 2023 - Nov 2023
 - Reference: <a href="https://docs.google.com/document/d/16K4dZITktaTaIP0_-8hggs6D8-r6EBzQtbMJcLETpUg/edit?tab=t.0" target="_blank" rel="noopener noreferrer">LFX WasmEdge 2023 Experience</a>
 
 <h3 style="display:flex; align-items:center; gap:10px;">
-  <img src="/images/logos/gsoc-icon.svg" alt="GSOC" width="44" />
+  <img src="../images/logos/gsoc-icon.svg" alt="GSOC" width="44" />
   <span>GSOC | Jenkins</span>
 </h3>
 

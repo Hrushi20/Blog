@@ -35,7 +35,7 @@ params:
   homeInfoParams:
     Title: "N. Hrushikesh Rao"
     Content: "Systems Engineer focused on performance, memory, and fundamentals."
-    imageUrl: "/images/profile/ghibli-placeholder.jpeg"
+    imageUrl: "images/profile/ghibli-placeholder.jpeg"
     imageTitle: "Profile photo"
     imageWidth: 180
     imageHeight: 180
