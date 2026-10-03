@@ -63,8 +63,8 @@ May 2022 - Sept 2022
 ## Skills
 
 - Java, C++, Rust, JavaScript, SQL
-- Distributed Systems, Backend Engineering, Payment Systems
-- Linux, WebAssembly, Performance Optimization
+- Distributed Systems, Event Sourcing
+- Linux, AWS, Performance Optimization
 - NixOS, ZFS, Infrastructure as Code
 - Git, Jenkins, Docker, CI Testing
 
