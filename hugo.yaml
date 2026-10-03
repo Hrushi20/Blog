@@ -1,6 +1,6 @@
 baseURL: "https://hrushi20.github.io/Blog/"
 languageCode: "en-us"
-title: "Premature Optimization"
+title: "One Layer Down"
 theme: ["PaperMod"]
 enableRobotsTXT: true
 markup:
@@ -16,7 +16,7 @@ outputs:
 
 params:
   env: production
-  title: "Premature Optimization"
+  title: "One Layer Down"
   description: "Systems engineering, performance tuning, memory optimization, and backend fundamentals by N. Hrushikesh Rao."
   keywords: ["systems engineering", "performance", "memory", "backend", "golang", "linux"]
   author: "N. Hrushikesh Rao"
